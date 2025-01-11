@@ -1,19 +1,15 @@
-<?xml version='1.0' encoding='utf-8'?>
-<urlset>
-  <url>
-    <index>0</index>
-    <URL>https://christianmicheli.com</URL>
-  </url>
-  <url>
-    <index>1</index>
-    <URL>https://christianmicheli.com/home</URL>
-  </url>
-  <url>
-    <index>2</index>
-    <URL>https://christianmicheli.com/contact</URL>
-  </url>
-  <url>
-    <index>3</index>
-    <URL>https://christianmicheli.com/about</URL>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://christianmicheli.com/</loc>
+    </url>
+    <url>
+        <loc>https://christianmicheli.com/home</loc>
+    </url>
+    <url>
+        <loc>https://christianmicheli.com/contact</loc>
+    </url>
+    <url>
+        <loc>https://christianmicheli.com/about</loc>
+    </url>
 </urlset>
