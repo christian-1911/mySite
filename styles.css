@@ -538,6 +538,14 @@ input[type=reset]:hover {
         height: 1.25rem;
         width: 1.25rem;
     }
+
+    #desc{
+        font-size: 0.8em;
+    }
+
+    #language{
+        font-size: 0.8em;
+    }
 }
 
 /* Medium screens (tablet) */
