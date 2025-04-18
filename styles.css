@@ -643,7 +643,7 @@ input[type=reset]:hover {
     opacity: 1;
 }
 
-.title {
+/* .title {
     position: absolute;
     top: 80px;
     right: -15px;
@@ -656,6 +656,22 @@ input[type=reset]:hover {
     font-weight: bold;
     background-color: #fafafa;
     border-radius: 10px;
+} */
+
+#book-title-display {
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.book .title {
+    display: none;
 }
 
 .book:hover .title {
@@ -797,6 +813,21 @@ input[type=reset]:hover {
     #language {
         font-size: 1rem;
     }
+
+    .bookshelf {
+        width: 150%;
+    }
+
+    #bookshelf-container {
+        min-height: 100px;
+    }
+
+    #book-title-display {
+        top: 0;
+        margin-top: -2em;
+        font-size: 1em;
+    }
+
 
 
 }
