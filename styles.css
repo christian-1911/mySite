@@ -615,7 +615,7 @@ input[type=reset]:hover {
     position: relative;
     height: 0px;
     box-sizing: border-box;
-    border-bottom: 16px solid #f3f3f3;
+    border-bottom: 16px solid var(--tape-edge-gray);
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     pointer-events: all;
@@ -626,7 +626,7 @@ input[type=reset]:hover {
     content: "";
     position: absolute;
     top: 16px;
-    background: linear-gradient(90deg, #fafafa 0%, #ffffff 100%);
+    background: linear-gradient(90deg, var(--tape-edge-gray) 0%, var(--tape-gray) 100%);
     height: 26px;
     width: calc(100% + 40px);
     box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.05),
@@ -676,7 +676,8 @@ input[type=reset]:hover {
 }
 
 .book:hover::before {
-    transform: translate(0, -45%) skew(3deg, -3deg) scale(1.35);
+    transform: translate(0, -45%) skew(3deg, -3deg) scale(1.85);
+    z-index: 1;
 }
 
 .book:hover::after {
@@ -684,7 +685,8 @@ input[type=reset]:hover {
 }
 
 .book:nth-of-type(even):hover::before {
-    transform: translate(0, -45%) skew(-3deg, 3deg) scale(1.35);
+    transform: translate(0, -45%) skew(-3deg, 3deg) scale(1.85);
+    z-index: 1;
 }
 
 .book:nth-of-type(even):hover::after {
