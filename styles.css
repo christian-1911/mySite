@@ -103,6 +103,8 @@ li a {
     align-items: center;
     justify-content: center;
     font-family: "Press Start 2P";
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 
