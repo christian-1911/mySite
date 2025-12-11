@@ -414,6 +414,7 @@ input[type=reset]:hover {
 /* Links styling */
 #works a:link {
     color: var(--green);
+    font-family: "Press Start 2P";
 }
 
 #works .grid-container>div:hover {
@@ -424,7 +425,18 @@ input[type=reset]:hover {
     color: var(--bgColor);
 }
 
+#works div:first-child {
+    background: url('grid.png') no-repeat center center;
+    background-size: cover;
+}
 
+#site1 a {
+    color: var(--white);
+}
+
+#site1 a:visited {
+    color: var(--white);
+}
 
 /**************
  * ABOUT STYLE *
