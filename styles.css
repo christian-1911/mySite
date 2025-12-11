@@ -413,7 +413,6 @@ input[type=reset]:hover {
 
 /* Links styling */
 #works a:link {
-    color: var(--green);
     font-family: "Press Start 2P";
 }
 
